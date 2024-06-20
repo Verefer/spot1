@@ -51,11 +51,64 @@ header{
 
 .menu a:hover{
         color: rgb(51, 45, 32);
-        text-shadow: 2px 2px rgba(0, 0, 0, 0.5);
+        text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
 }
 
-content{
+.content{
         width: 100%;
         height: auto;
         background-color: rgb(179, 179, 179);
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+}
+
+.block{
+        margin: 20px;
+}
+
+.txt{
+        font-size: 20pt;
+        padding-bottom: 15px;
+        color: rgb(90, 62, 40);
+}
+
+.cardtop{
+        display: flex;
+        justify-content: space-between;
+        margin: 25px;
+}
+
+.card{
+        display: block;
+        padding: 10px;
+        border: 2px solid black;
+}
+
+.zak{
+        display: block;
+        padding: 5px;
+        border: 3px solid black;
+        font-size: 15pt;
+        text-decoration: none;
+        color: black;
+}
+
+.zak:hover{
+        color: rgb(87, 32, 11);
+        text-shadow: 2px 2px 10px rgba(255, 32, 2, 0.568);
+}
+
+footer{
+        width: 100%;
+        height: auto;
+        background-color: rgb(179, 179, 179);
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+}
+
+footer p{
+        font-size: 15pt;
 }
